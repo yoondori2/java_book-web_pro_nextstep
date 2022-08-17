@@ -1,0 +1,20 @@
+package practice;
+
+public class Calculator {
+	
+	public int add(String text) {
+		
+		if(text == null || text.isEmpty()) {
+			return 0;
+		}
+		if(text.contains(",")) {
+			int sum = 0;
+			String[] nums = text.split(",");
+			for (String num : nums) {
+				sum += Integer.parseInt(num);
+			}
+			return sum;
+		}
+		return Integer.parseInt(text);
+	}
+}

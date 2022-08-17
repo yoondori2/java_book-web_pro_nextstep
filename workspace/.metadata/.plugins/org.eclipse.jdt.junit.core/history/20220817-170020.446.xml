@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest (1)" project="Part1" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="practice.CalculatorTest" time="0.0" displayname="CalculatorTest" uniqueid="[engine:junit-vintage]/[runner:practice.CalculatorTest]">
+    <testcase name="add_empty" classname="practice.CalculatorTest" time="0.0" displayname="add_empty" uniqueid="[engine:junit-vintage]/[runner:practice.CalculatorTest]/[test:add_empty(practice.CalculatorTest)]"/>
+    <testcase name="add_string" classname="practice.CalculatorTest" time="0.0" displayname="add_string" uniqueid="[engine:junit-vintage]/[runner:practice.CalculatorTest]/[test:add_string(practice.CalculatorTest)]">
+      <failure>
+        <expected>3</expected>
+        <actual>3</actual>org.opentest4j.AssertionFailedError: expected: java.lang.Integer@eb21112&lt;3&gt; but was: java.lang.String@2eda0940&lt;3&gt;&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)&#13;
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)&#13;
+	at practice.CalculatorTest.add_string(CalculatorTest.java:22)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#13;
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

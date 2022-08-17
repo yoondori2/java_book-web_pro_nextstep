@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest (1)" project="Part1" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="practice.CalculatorTest" time="0.0" displayname="CalculatorTest" uniqueid="[engine:junit-vintage]/[runner:practice.CalculatorTest]">
+    <testcase name="add_regx" classname="practice.CalculatorTest" time="0.0" displayname="add_regx" uniqueid="[engine:junit-vintage]/[runner:practice.CalculatorTest]/[test:add_regx(practice.CalculatorTest)]"/>
+    <testcase name="add_seperate" classname="practice.CalculatorTest" time="0.0" displayname="add_seperate" uniqueid="[engine:junit-vintage]/[runner:practice.CalculatorTest]/[test:add_seperate(practice.CalculatorTest)]"/>
+    <testcase name="add_empty" classname="practice.CalculatorTest" time="0.0" displayname="add_empty" uniqueid="[engine:junit-vintage]/[runner:practice.CalculatorTest]/[test:add_empty(practice.CalculatorTest)]"/>
+    <testcase name="add_string" classname="practice.CalculatorTest" time="0.0" displayname="add_string" uniqueid="[engine:junit-vintage]/[runner:practice.CalculatorTest]/[test:add_string(practice.CalculatorTest)]"/>
+  </testsuite>
+</testrun>

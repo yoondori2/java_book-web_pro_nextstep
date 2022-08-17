@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SplitTest" project="Part1" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="practice.SplitTest" time="0.0" displayname="SplitTest" uniqueid="[engine:junit-vintage]/[runner:practice.SplitTest]">
+    <testcase name="Split" classname="practice.SplitTest" time="0.0" displayname="Split" uniqueid="[engine:junit-vintage]/[runner:practice.SplitTest]/[test:Split(practice.SplitTest)]"/>
+  </testsuite>
+</testrun>

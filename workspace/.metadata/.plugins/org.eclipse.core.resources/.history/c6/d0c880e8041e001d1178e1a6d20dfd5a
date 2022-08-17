@@ -1,0 +1,23 @@
+package practice;
+
+public class Calculator {
+//문자열 입력했을때와 쉼표 구분자 이용할 경우 원래 if문으로 나누었는데 없애준다. 
+
+	public int add(String text) {
+		if (text == null || text.isEmpty()) {
+			return 0;
+		}
+
+		String[] values = text.split(",");
+		return isInts(values);
+	}
+	
+	private int isInts(String[] values) {
+		
+		int sum = 0;
+		for (String value : values) {
+			sum += Integer.parseInt(value);
+		}
+		return sum;
+	}
+}

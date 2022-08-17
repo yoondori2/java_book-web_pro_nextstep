@@ -1,0 +1,20 @@
+package practice;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CalculatorTest {
+	private Calculator cal;
+	
+	@Before
+	public void setup() {
+		cal = new Calculator();
+	}
+	@Test
+	int add_empty() {
+		assertEquals(0,cal.add(null));
+	}
+	
+}

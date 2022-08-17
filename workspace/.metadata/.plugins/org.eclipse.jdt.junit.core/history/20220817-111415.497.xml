@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest" project="Part1" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="main.CalculatorTest" time="0.0" displayname="CalculatorTest" uniqueid="[engine:junit-vintage]/[runner:main.CalculatorTest]">
+    <testcase name="add" classname="main.CalculatorTest" time="0.0" displayname="add" uniqueid="[engine:junit-vintage]/[runner:main.CalculatorTest]/[test:add(main.CalculatorTest)]"/>
+    <testcase name="substract" classname="main.CalculatorTest" time="0.0" displayname="substract" uniqueid="[engine:junit-vintage]/[runner:main.CalculatorTest]/[test:substract(main.CalculatorTest)]"/>
+  </testsuite>
+</testrun>
