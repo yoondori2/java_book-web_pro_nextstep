@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="StringCalculatorTest" project="Part1" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="practice.StringCalculatorTest" time="0.0" displayname="StringCalculatorTest" uniqueid="[engine:junit-vintage]/[runner:practice.StringCalculatorTest]">
-    <testcase name="add_char" classname="practice.StringCalculatorTest" time="0.0" displayname="add_char" uniqueid="[engine:junit-vintage]/[runner:practice.StringCalculatorTest]/[test:add_char(practice.StringCalculatorTest)]"/>
-    <testcase name="add_null_bin" classname="practice.StringCalculatorTest" time="0.0" displayname="add_null_bin" uniqueid="[engine:junit-vintage]/[runner:practice.StringCalculatorTest]/[test:add_null_bin(practice.StringCalculatorTest)]"/>
-  </testsuite>
-</testrun>

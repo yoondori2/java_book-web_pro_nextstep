@@ -1,0 +1,35 @@
+package tdd;
+
+import static org.junit.Assert.fail;
+
+import org.junit.Test;
+
+public class AccountTestwithJUnit {
+	
+	
+	@Test
+	public void testAccount() throws Exception{
+		Account account = new Account(10000);
+		if(account==null) {
+			throw new Exception("계좌 생성 실패");
+		}
+	}
+	@Test
+	public void testGetBalance() throws Exception{
+		Account account = new Account();
+		if(account.getBalance() != 10000) {
+			fail("Eroor occured!");
+		}
+	}
+	
+	public static void main(String[] args) {
+		AccountTestwithJUnit test = new AccountTestwithJUnit();
+		try {
+			test.testAccount();
+		} catch (Exception e) {
+			System.out.println("실패");
+			return;
+		}
+		System.out.println("성공");
+	}
+}

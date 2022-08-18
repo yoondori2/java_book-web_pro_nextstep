@@ -1,0 +1,18 @@
+package main;
+
+public class Account {
+
+	public Account(int i) {
+		
+	}
+
+	public Account() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public int getBalance() {
+		
+		return 0;
+	}
+	
+}

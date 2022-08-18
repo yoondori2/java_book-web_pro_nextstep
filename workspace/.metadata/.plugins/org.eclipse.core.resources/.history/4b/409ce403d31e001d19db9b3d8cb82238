@@ -1,0 +1,10 @@
+package tdd;
+
+public class Account {
+
+	public int getBalance(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

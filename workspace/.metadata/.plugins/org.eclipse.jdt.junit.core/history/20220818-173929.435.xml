@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AccountTestwithJUnit" project="Part1" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="tdd.AccountTestwithJUnit" time="0.002" displayname="AccountTestwithJUnit" uniqueid="[engine:junit-vintage]/[runner:tdd.AccountTestwithJUnit]">
+    <testcase name="testAccount" classname="tdd.AccountTestwithJUnit" time="0.002" displayname="testAccount" uniqueid="[engine:junit-vintage]/[runner:tdd.AccountTestwithJUnit]/[test:testAccount(tdd.AccountTestwithJUnit)]"/>
+  </testsuite>
+</testrun>

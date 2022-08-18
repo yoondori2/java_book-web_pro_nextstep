@@ -1,0 +1,25 @@
+package test;
+
+import java.Account;
+
+import org.junit.Test;
+
+public class AccountTest {
+	
+	@Test
+	public void testAccount() throws Exception {
+		Account account = new Account();
+		
+	}
+
+	public static void main(String[] args) {
+		AccountTest test = new AccountTest();
+		try {
+			test.testAccount();
+		} catch (Exception e) {
+			System.out.println("실패");
+			return;
+		}
+		System.out.println("성공");
+	}
+}

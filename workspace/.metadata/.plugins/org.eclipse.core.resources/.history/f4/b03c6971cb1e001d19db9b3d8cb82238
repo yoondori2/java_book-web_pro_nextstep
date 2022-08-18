@@ -1,0 +1,8 @@
+package tdd;
+
+public class AccountTest {
+	
+	public void testAccount(){
+		Account account = new Account();
+	}
+}
